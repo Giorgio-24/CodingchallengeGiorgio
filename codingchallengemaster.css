@@ -1,0 +1,34 @@
+body{
+ background: url(background.jpg) no-repeat center center fixed;
+ background-size: cover; /* Immagine sfondo pagina */
+ width: 100%;
+ height: 100%;
+ color: white; /* Colore generale del testo in bianco */
+}
+
+.zeus{
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 70%;
+  margin: 1% 5% 5%;
+  padding: 10%;
+  border-radius: 15px 15px 15px 15px;
+}
+
+header img{
+ width: 25%;
+ padding-left: 40%;
+}
+
+h1[class="verde"]{
+  color: #00dd00;
+  padding-left:20%;
+   /* Questo è il itolo in verde */
+}
+
+input[type="checkbox"],h2{
+  display: inline-block;
+}
+
+h2{
+  line-height:5px;
+}
